@@ -1,0 +1,6 @@
+{
+  "name": "Sweet Crush",
+  "description": "An offline-playable Indian sweets match-3 puzzle PWA featuring laddu, jalebi, gulab jamun, rasgulla, barfi, mysore pak, 60 levels, boss battles, festival events, and a level editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,3570 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "First Avenger Deployment",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 1440
+        }
+      ],
+      "starThresholds": [
+        1780,
+        2759,
+        3916
+      ],
+      "sweetTypesCount": 5,
+      "tutorialKey": "swap"
+    },
+    {
+      "id": 2,
+      "name": "Repulsor Calibration",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "gulab_jamun",
+          "target": 16
+        }
+      ],
+      "starThresholds": [
+        2060,
+        3193,
+        4532
+      ],
+      "sweetTypesCount": 5,
+      "tutorialKey": "special"
+    },
+    {
+      "id": 3,
+      "name": "Doom Shield Breach",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 9
+        }
+      ],
+      "starThresholds": [
+        2340,
+        3627,
+        5148
+      ],
+      "sweetTypesCount": 5,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 1
+        }
+      ],
+      "tutorialKey": "jelly"
+    },
+    {
+      "id": 4,
+      "name": "Coastal Radar Array",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 2160
+        }
+      ],
+      "starThresholds": [
+        2620,
+        4061,
+        5764
+      ],
+      "sweetTypesCount": 5
+    },
+    {
+      "id": 5,
+      "name": "Vibranium Supply Line",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 12
+        }
+      ],
+      "starThresholds": [
+        2900,
+        4495,
+        6380
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 1,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Citadel Perimeter Hold",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 16
+        }
+      ],
+      "starThresholds": [
+        3180,
+        4929,
+        6996
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 7,
+      "name": "Arc Reactor Overdrive",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 2880
+        }
+      ],
+      "starThresholds": [
+        3460,
+        5363,
+        7612
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 3,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Helicarrier Approach",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 2
+        }
+      ],
+      "starThresholds": [
+        3740,
+        5797,
+        8228
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "cherry": true
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sentinel Drone Swarm",
+      "region": "chennai_marina",
+      "rows": 8,
+      "cols": 8,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 16
+        }
+      ],
+      "starThresholds": [
+        4020,
+        6231,
+        8844
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tesseract Extraction",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "barfi",
+          "target": 16
+        }
+      ],
+      "starThresholds": [
+        4300,
+        6665,
+        9460
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 3,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Citadel Tower Assault",
+      "region": "chennai_marina",
+      "rows": 7,
+      "cols": 7,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 3840
+        }
+      ],
+      "starThresholds": [
+        4580,
+        7099,
+        10076
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 12,
+      "name": "Boss: Dread Sentinel",
+      "region": "chennai_marina",
+      "rows": 8,
+      "cols": 8,
+      "moves": 28,
+      "goals": [
+        {
+          "type": "boss",
+          "target": 260
+        }
+      ],
+      "starThresholds": [
+        4860,
+        7533,
+        10692
+      ],
+      "sweetTypesCount": 6,
+      "bossName": "Dread Sentinel",
+      "bossHp": 260,
+      "layout": [
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "blocker": "ice"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Duo Formed: Scarlet Bolt",
+      "region": "madurai_temple",
+      "rows": 7,
+      "cols": 7,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "jalebi",
+          "target": 18
+        },
+        {
+          "type": "collect",
+          "sweet": "rasgulla",
+          "target": 15
+        }
+      ],
+      "starThresholds": [
+        5140,
+        7967,
+        11308
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 3,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Mach-9 Intercept",
+      "region": "madurai_temple",
+      "rows": 7,
+      "cols": 7,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 13
+        }
+      ],
+      "starThresholds": [
+        5420,
+        8401,
+        11924
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 1,
+          "c": 1,
+          "jelly": 1
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 1,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sanctum Relay Grid",
+      "region": "madurai_temple",
+      "rows": 8,
+      "cols": 8,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 2
+        }
+      ],
+      "starThresholds": [
+        5700,
+        8835,
+        12540
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Skyline Plasma Sweep",
+      "region": "madurai_temple",
+      "rows": 7,
+      "cols": 7,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "score",
+          "target": 5040
+        }
+      ],
+      "starThresholds": [
+        5980,
+        9269,
+        13156
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "hole": true
+        },
+        {
+          "r": 6,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "hole": true
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Titanium Lock Breach",
+      "region": "madurai_temple",
+      "rows": 7,
+      "cols": 7,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 14
+        }
+      ],
+      "starThresholds": [
+        6260,
+        9703,
+        13772
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 1,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "jelly": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "jelly": 2,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Spire Command Deck",
+      "region": "madurai_temple",
+      "rows": 8,
+      "cols": 8,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 20
+        },
+        {
+          "type": "collect",
+          "sweet": "gulab_jamun",
+          "target": 15
+        }
+      ],
+      "starThresholds": [
+        6540,
+        10137,
+        14388
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 19,
+      "name": "Crimson Blitz Run",
+      "region": "madurai_temple",
+      "rows": 8,
+      "cols": 8,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "score",
+          "target": 5760
+        }
+      ],
+      "starThresholds": [
+        6820,
+        10571,
+        15004
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Ultron Sub-Network",
+      "region": "madurai_temple",
+      "rows": 8,
+      "cols": 8,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 2
+        }
+      ],
+      "starThresholds": [
+        7100,
+        11005,
+        15620
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "High-Voltage Junction",
+      "region": "madurai_temple",
+      "rows": 9,
+      "cols": 9,
+      "moves": 29,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 25
+        }
+      ],
+      "starThresholds": [
+        7380,
+        11439,
+        16236
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Tesseract Conduit",
+      "region": "madurai_temple",
+      "rows": 8,
+      "cols": 8,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "barfi",
+          "target": 20
+        },
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 15
+        }
+      ],
+      "starThresholds": [
+        7660,
+        11873,
+        16852
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Central Spire Siege",
+      "region": "madurai_temple",
+      "rows": 8,
+      "cols": 8,
+      "moves": 25,
+      "goals": [
+        {
+          "type": "score",
+          "target": 6720
+        }
+      ],
+      "starThresholds": [
+        7940,
+        12307,
+        17468
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 24,
+      "name": "Boss: Ultron Rift Core",
+      "region": "madurai_temple",
+      "rows": 9,
+      "cols": 9,
+      "moves": 30,
+      "goals": [
+        {
+          "type": "boss",
+          "target": 400
+        }
+      ],
+      "starThresholds": [
+        8220,
+        12741,
+        18084
+      ],
+      "sweetTypesCount": 6,
+      "bossName": "Ultron Rift Core",
+      "bossHp": 400,
+      "layout": [
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 7,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Trio Formed: Deep Trident",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "jalebi",
+          "target": 22
+        },
+        {
+          "type": "collect",
+          "sweet": "rasgulla",
+          "target": 18
+        }
+      ],
+      "starThresholds": [
+        8500,
+        13175,
+        18700
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Stormbreaker Surge",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 9
+        }
+      ],
+      "starThresholds": [
+        8780,
+        13609,
+        19316
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Cryo Stasis Fracture",
+      "region": "kanyakumari",
+      "rows": 9,
+      "cols": 9,
+      "moves": 28,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 2
+        }
+      ],
+      "starThresholds": [
+        9060,
+        14043,
+        19932
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Offshore Rig Defense",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "score",
+          "target": 7920
+        }
+      ],
+      "starThresholds": [
+        9340,
+        14477,
+        20548
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "hole": true
+        },
+        {
+          "r": 7,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 7,
+          "c": 7,
+          "hole": true
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Uru Lightning Strike",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 9
+        }
+      ],
+      "starThresholds": [
+        9620,
+        14911,
+        21164
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Three-Sea Sonar Array",
+      "region": "kanyakumari",
+      "rows": 9,
+      "cols": 9,
+      "moves": 28,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 24
+        },
+        {
+          "type": "collect",
+          "sweet": "gulab_jamun",
+          "target": 18
+        }
+      ],
+      "starThresholds": [
+        9900,
+        15345,
+        21780
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 31,
+      "name": "Sub-Zero Containment",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "score",
+          "target": 8640
+        }
+      ],
+      "starThresholds": [
+        10180,
+        15779,
+        22396
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Trident Rift Trench",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 3
+        }
+      ],
+      "starThresholds": [
+        10460,
+        16213,
+        23012
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Orbital Thunder Grid",
+      "region": "kanyakumari",
+      "rows": 9,
+      "cols": 9,
+      "moves": 28,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 25
+        }
+      ],
+      "starThresholds": [
+        10740,
+        16647,
+        23628
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Deep-Sea Tesseract Drop",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "barfi",
+          "target": 24
+        },
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 18
+        }
+      ],
+      "starThresholds": [
+        11020,
+        17081,
+        24244
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Leviathan Vanguard",
+      "region": "kanyakumari",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "goals": [
+        {
+          "type": "score",
+          "target": 9600
+        }
+      ],
+      "starThresholds": [
+        11300,
+        17515,
+        24860
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 36,
+      "name": "Boss: Abyssal Leviathan",
+      "region": "kanyakumari",
+      "rows": 9,
+      "cols": 9,
+      "moves": 32,
+      "goals": [
+        {
+          "type": "boss",
+          "target": 540
+        }
+      ],
+      "starThresholds": [
+        11580,
+        17949,
+        25476
+      ],
+      "sweetTypesCount": 6,
+      "bossName": "Abyssal Leviathan",
+      "bossHp": 540,
+      "layout": [
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 7,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "blocker": "stone"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Quartet Formed: Mystic Prism",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "jalebi",
+          "target": 26
+        },
+        {
+          "type": "collect",
+          "sweet": "rasgulla",
+          "target": 21
+        }
+      ],
+      "starThresholds": [
+        11860,
+        18383,
+        26092
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Mirror Hall Convergence",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 13
+        }
+      ],
+      "starThresholds": [
+        12140,
+        18817,
+        26708
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Time Stone Sanctum",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 3
+        }
+      ],
+      "starThresholds": [
+        12420,
+        19251,
+        27324
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Reality Prism Lattice",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 35,
+      "timeLimitSec": 80,
+      "goals": [
+        {
+          "type": "score",
+          "target": 10800
+        }
+      ],
+      "starThresholds": [
+        12700,
+        19685,
+        27940
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 0,
+          "c": 8,
+          "hole": true
+        },
+        {
+          "r": 8,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 8,
+          "c": 8,
+          "hole": true
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Arcane Ward Breaker",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 14
+        }
+      ],
+      "starThresholds": [
+        12980,
+        20119,
+        28556
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2,
+          "blocker": "locked"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Multiverse Anomaly",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 28
+        },
+        {
+          "type": "collect",
+          "sweet": "gulab_jamun",
+          "target": 21
+        }
+      ],
+      "starThresholds": [
+        13260,
+        20553,
+        29172
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Sling-Ring Corridor",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "score",
+          "target": 11520
+        }
+      ],
+      "starThresholds": [
+        13540,
+        20987,
+        29788
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Astral Vault Locks",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 3
+        }
+      ],
+      "starThresholds": [
+        13820,
+        21421,
+        30404
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Dimension Fold Crisis",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 25
+        }
+      ],
+      "starThresholds": [
+        14100,
+        21855,
+        31020
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Sanctum Core Defense",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "barfi",
+          "target": 28
+        },
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 21
+        }
+      ],
+      "starThresholds": [
+        14380,
+        22289,
+        31636
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Mordo-X Outer Ring",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 27,
+      "goals": [
+        {
+          "type": "score",
+          "target": 12480
+        }
+      ],
+      "starThresholds": [
+        14660,
+        22723,
+        32252
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Boss: Baron Mordo-X",
+      "region": "jaipur",
+      "rows": 9,
+      "cols": 9,
+      "moves": 34,
+      "goals": [
+        {
+          "type": "boss",
+          "target": 680
+        }
+      ],
+      "starThresholds": [
+        14940,
+        23157,
+        32868
+      ],
+      "sweetTypesCount": 6,
+      "bossName": "Baron Mordo-X",
+      "bossHp": 680,
+      "layout": [
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 7,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "blocker": "stone"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Full Team: Iron Titan Arrives",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "jalebi",
+          "target": 30
+        },
+        {
+          "type": "collect",
+          "sweet": "rasgulla",
+          "target": 24
+        }
+      ],
+      "starThresholds": [
+        15220,
+        23591,
+        33484
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Mark-85 Bridgehead",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 13
+        }
+      ],
+      "starThresholds": [
+        15500,
+        24025,
+        34100
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Doomsday Perimeter Wall",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 3
+        }
+      ],
+      "starThresholds": [
+        15780,
+        24459,
+        34716
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Obsidian Citadel Gate",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 13680
+        }
+      ],
+      "starThresholds": [
+        16060,
+        24893,
+        35332
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 0,
+          "c": 8,
+          "hole": true
+        },
+        {
+          "r": 8,
+          "c": 0,
+          "hole": true
+        },
+        {
+          "r": 8,
+          "c": 8,
+          "hole": true
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Emerald Storm Gauntlet",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 14
+        }
+      ],
+      "starThresholds": [
+        16340,
+        25327,
+        35948
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2,
+          "blocker": "locked"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Five-Hero Synergy",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 32
+        },
+        {
+          "type": "collect",
+          "sweet": "gulab_jamun",
+          "target": 24
+        }
+      ],
+      "starThresholds": [
+        16620,
+        25761,
+        36564
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 55,
+      "name": "Nexus Reactor Chamber",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 14400
+        }
+      ],
+      "starThresholds": [
+        16900,
+        26195,
+        37180
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Vibranium Fortress Core",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 3
+        }
+      ],
+      "starThresholds": [
+        17180,
+        26629,
+        37796
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Infinity Rift Conduit",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 25
+        }
+      ],
+      "starThresholds": [
+        17460,
+        27063,
+        38412
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Doomsday Guard Legion",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "barfi",
+          "target": 32
+        },
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 24
+        }
+      ],
+      "starThresholds": [
+        17740,
+        27497,
+        39028
+      ],
+      "sweetTypesCount": 6,
+      "layout": [
+        {
+          "r": 4,
+          "c": 3,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Throne Room Threshold",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "goals": [
+        {
+          "type": "score",
+          "target": 15360
+        }
+      ],
+      "starThresholds": [
+        18020,
+        27931,
+        39644
+      ],
+      "sweetTypesCount": 6
+    },
+    {
+      "id": 60,
+      "name": "Endgame: Doctor Doomsday",
+      "region": "delhi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 36,
+      "goals": [
+        {
+          "type": "boss",
+          "target": 820
+        }
+      ],
+      "starThresholds": [
+        18300,
+        28365,
+        40260
+      ],
+      "sweetTypesCount": 6,
+      "bossName": "Doctor Doomsday",
+      "bossHp": 820,
+      "layout": [
+        {
+          "r": 4,
+          "c": 1,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "blocker": "ice"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 7,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "blocker": "stone"
+        }
+      ]
+    }
+  ],
+  "festivalLevels": [
+    {
+      "id": 101,
+      "name": "Doomsday Incursion Raid",
+      "region": "festival",
+      "festivalTag": "diwali",
+      "rows": 9,
+      "cols": 9,
+      "moves": 26,
+      "sweetTypesCount": 6,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "laddu",
+          "target": 25
+        },
+        {
+          "type": "collect",
+          "sweet": "jalebi",
+          "target": 25
+        }
+      ],
+      "starThresholds": [
+        4500,
+        7500,
+        11000
+      ],
+      "layout": [
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "jelly": 1
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Wakanda Vault Defense",
+      "region": "festival",
+      "festivalTag": "pongal",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "sweetTypesCount": 6,
+      "goals": [
+        {
+          "type": "cherry",
+          "target": 3
+        },
+        {
+          "type": "collect",
+          "sweet": "mysore_pak",
+          "target": 22
+        }
+      ],
+      "starThresholds": [
+        4000,
+        6800,
+        10000
+      ],
+      "layout": [
+        {
+          "r": 0,
+          "c": 1,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "cherry": true
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "cherry": true
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "blocker": "ice"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Quantum Rift Breach",
+      "region": "festival",
+      "festivalTag": "holi",
+      "rows": 9,
+      "cols": 9,
+      "moves": 25,
+      "sweetTypesCount": 6,
+      "goals": [
+        {
+          "type": "jelly",
+          "target": 13
+        }
+      ],
+      "starThresholds": [
+        5000,
+        8200,
+        12000
+      ],
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "jelly": 1
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "jelly": 2
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "jelly": 1
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "jelly": 2
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "jelly": 1
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "jelly": 2
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "jelly": 1
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "jelly": 1
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Asgard Bifrost Siege",
+      "region": "festival",
+      "festivalTag": "eid",
+      "rows": 8,
+      "cols": 8,
+      "moves": 24,
+      "sweetTypesCount": 6,
+      "goals": [
+        {
+          "type": "collect",
+          "sweet": "gulab_jamun",
+          "target": 24
+        },
+        {
+          "type": "collect",
+          "sweet": "barfi",
+          "target": 24
+        }
+      ],
+      "starThresholds": [
+        4200,
+        7000,
+        10500
+      ],
+      "layout": [
+        {
+          "r": 2,
+          "c": 3,
+          "blocker": "locked"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "blocker": "locked"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "blocker": "locked"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Jotunheim Cryo Boss",
+      "region": "festival",
+      "festivalTag": "christmas",
+      "rows": 9,
+      "cols": 9,
+      "moves": 28,
+      "sweetTypesCount": 6,
+      "bossName": "Frost Giant Prime",
+      "bossHp": 420,
+      "goals": [
+        {
+          "type": "boss",
+          "target": 420
+        }
+      ],
+      "starThresholds": [
+        5500,
+        9000,
+        13000
+      ],
+      "layout": [
+        {
+          "r": 2,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "blocker": "ice"
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "blocker": "ice"
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "blocker": "ice"
+        }
+      ]
+    }
+  ]
+}
